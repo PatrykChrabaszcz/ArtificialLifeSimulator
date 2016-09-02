@@ -15,6 +15,10 @@ enviroment.
 There is a simple implementation of the brain, which is based on static predefined Artificial Network.
 There is also a simple implementation of the Mutator class, but it's quite random and needs an improvement. 
 
+It's quite interesting to see the behaviour of the animals, as some of them can correctly sense food and 
+move in a right direction while others got stuck on the border or move in a random way. Better implementation
+of the Mutator class could keep the "right" behaviours in the population and get rid of the "wrong" ones
+
 ![alt tag](https://github.com/PatrykChrabaszcz/ArtificialLifeSimulator/blob/master/Pictures/Window.jpg)
 
 One of the tasks was to achive modularity of different parts of the code, and use make use of design patterns 
@@ -22,6 +26,7 @@ presented in the lecture. Thanks to that it's easy to:
 1. Add new Brain classes that will map sensor input into movements of a robot 
 2. Add new Mutator classes that will combine two brains into new one (evolution)
 3. Add new PhysicEngine classes that will update animals and the enviroment based on animals motors 
+
 
 Youtube Video: https://www.youtube.com/watch?v=EGKi2akZbAY
 
